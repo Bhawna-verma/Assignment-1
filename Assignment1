@@ -1,0 +1,62 @@
+HP@LAPTOP-OHHPH6QH MINGW64 ~/Desktop/git repo (master)
+$ git version
+git version 2.25.1.windows.1
+
+HP@LAPTOP-OHHPH6QH MINGW64 ~/Desktop/git repo (master)
+$ git config --global user.name "Bhawna Verma"
+
+HP@LAPTOP-OHHPH6QH MINGW64 ~/Desktop/git repo (master)
+$ git config --global user.email "bhavnaverma702@gmail,com"
+
+HP@LAPTOP-OHHPH6QH MINGW64 ~/Desktop/git repo (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+HP@LAPTOP-OHHPH6QH MINGW64 ~/Desktop/git repo (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/HP/Desktop/git repo/.git/
+
+HP@LAPTOP-OHHPH6QH MINGW64 ~/Desktop/git repo (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+HP@LAPTOP-OHHPH6QH MINGW64 ~/Desktop/git repo (master)
+$ git add .
+
+HP@LAPTOP-OHHPH6QH MINGW64 ~/Desktop/git repo (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   repo1.txt.txt
+        modified:   repo2.txt.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+HP@LAPTOP-OHHPH6QH MINGW64 ~/Desktop/git repo (master)
+$ git add .
+
+HP@LAPTOP-OHHPH6QH MINGW64 ~/Desktop/git repo (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   repo1.txt.txt
+        modified:   repo2.txt.txt
+
+
+HP@LAPTOP-OHHPH6QH MINGW64 ~/Desktop/git repo (master)
+$ git commit -m "Delete ., delete 1"
+[master 93de2ee] Delete ., delete 1
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+HP@LAPTOP-OHHPH6QH MINGW64 ~/Desktop/git repo (master)
+$ git commit -m "remove ."
+On branch master
+nothing to commit, working tree clean
+
+HP@LAPTOP-OHHPH6QH MINGW64 ~/Desktop/git repo (master)
+$
